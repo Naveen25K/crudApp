@@ -1,24 +1,29 @@
-*{
-  padding:0;
+* {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
-.Heading{
-margin-top: 40px;
-margin-bottom: 40px;
+.container {
+  margin-top: 60px;
+}
+.Heading {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-table,tr,td,th{
-  padding:15px !important;
+table,
+tr,
+td,
+th {
+  padding: 15px !important;
 }
-.btn{
-  margin:5px;
+.btn {
+  margin: 5px;
 }
-.centerContainer{
-  position:absolute;
+.centerContainer {
+  position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
   background-color: #212529;
@@ -31,28 +36,28 @@ table,tr,td,th{
   box-shadow: 10px 10px 5px #999;
 }
 
-.form-label{
-  color: rgb(255, 255, 255) ;
+.form-label {
+  color: rgb(255, 255, 255);
   margin-bottom: 10px;
 }
 
-.form-control{
+.form-control {
   background-color: transparent;
   outline: none;
-  color:rgb(184, 184, 184);
+  color: rgb(184, 184, 184);
 }
-.submitBtn{
+.submitBtn {
   width: 20%;
   margin-top: 20px;
 }
 
-.form-control::placeholder{
-  color:rgb(184, 184, 184);
+.form-control::placeholder {
+  color: rgb(184, 184, 184);
 }
-.viewUser{
-  top:50%;
-  position:absolute;
-  left:50%;
+.viewUser {
+  top: 50%;
+  position: absolute;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
   background-color: #212529;
@@ -60,19 +65,21 @@ table,tr,td,th{
   border-radius: 5px;
 }
 
-.list-group li{
+.list-group li {
   background-color: transparent;
   color: white;
   font-size: 20px;
 }
-.backToHome{
+.backToHome {
   margin-bottom: 20px;
 }
-.label{
+.label {
   font-weight: bolder;
-  padding:3px;
+  padding: 3px;
   margin-right: 50px;
   border-top: 1px solid #f4f4f4;
-  padding:10px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
 }
-
+.emptyPage {
+  text-align: center;
+}
